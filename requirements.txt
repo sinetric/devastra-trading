@@ -3,3 +3,4 @@ pandas>=2.0.0
 numpy
 fastapi
 uvicorn[standard]
+pydantic

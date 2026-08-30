@@ -12,6 +12,12 @@ cd devastra-trading
 ### Backend setup
 
 ```bash
-python -m venv .venv
-.venv\Scripts\activate.bat
+# create the venv
+python3 -m venv venv
+
+# activate it
+venv\Scripts\activate           # Windows
+
+# install dependencies from requirements.txt
+pip install -r requirements.txt
 ```
