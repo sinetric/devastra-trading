@@ -1,12 +1,14 @@
 from config.settings import get_settings
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 headers = {
     "accept": "application/json",
+    "APCA-API-KEY-ID": os.getenv("APCA_API_KEY_ID"),
+    "APCA-API-SECRET-KEY": os.getenv("APCA_API_SECRET_KEY")
 }
 
 def get_header():
-    settings = get_settings()
-    headers["APCA-API-KEY-ID"] = settings.APCA_API_KEY_ID
-    headers["APCA-API-SECRET-KEY"] = settings.APCA_API_SECRET_KEY
-    
     return headers
