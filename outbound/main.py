@@ -1,11 +1,14 @@
 import requests
+from header import get_header
+from jsonParser import create_json_file, parse_json_file
 import json
 
 url = "https://data.alpaca.markets/v1beta1/screener/stocks/movers?top=10"
+headers = get_header()
 
 response = requests.get(url, headers=headers)
 
-print(response.text)
+# Create a JSON file with the response data
+file_path = create_json_file("response.json", response)
 
-with open("response.json", "w") as json_file:
-    json.dump(response.text, json_file, indent=4)
+print(response.text)
