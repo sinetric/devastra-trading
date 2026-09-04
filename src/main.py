@@ -7,6 +7,7 @@ from src.outbound.header import get_header
 from src.outbound.market_data.stocks import fetch_watchlist_snapshots, rank_movers
 from src.outbound.trading.options import get_option_contract_symbol, submit_option_order
 from src.outbound.models import Create_OCC_Format, Option_Submission
+from src.outbound.strategy import buy_choice
 from config.settings import get_settings
 
 SETTINGS = get_settings()
@@ -31,6 +32,11 @@ def scan_and_trade(settings) -> None:
     # ... your strategy logic decides what to trade from `movers` ...
     # then build a Create_OCC_Format, call get_option_contract_symbol, build an
     # Option_Submission, call submit_option_order
+
+    decisions = buy_choice.decide_buy(movers)
+    logger.log(decisions)
+
+    # decide here which stocks to buy or not buy
 
 
 def run():
