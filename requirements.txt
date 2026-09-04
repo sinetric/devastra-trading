@@ -9,3 +9,4 @@ responses
 pyarrow
 scipy
 tqdm
+psycopg2-binary

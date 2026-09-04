@@ -18,7 +18,16 @@ from pathlib import Path
 # project root is 3 levels up from this file (utils/ -> src/ -> root)
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 LOG_DIR = PROJECT_ROOT / "logs"
-LOG_DIR.mkdir(exist_ok=True)
+try:
+    LOG_DIR.mkdir(exist_ok=True)
+except OSError:
+    # Deployed serverless environments (Vercel included) ship a read-only
+    # filesystem everywhere except /tmp — fall back there instead of
+    # crashing on import (which nearly every module in this project does,
+    # via `from src.utils import logger`).
+    import tempfile
+    LOG_DIR = Path(tempfile.gettempdir()) / "devastra_logs"
+    LOG_DIR.mkdir(exist_ok=True, parents=True)
 
 # one log file per execution, named by the moment the process started
 _RUN_TIMESTAMP = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")

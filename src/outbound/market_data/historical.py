@@ -19,7 +19,16 @@ from src.utils import logger
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 CACHE_DIR = PROJECT_ROOT / "data" / "historical"
-CACHE_DIR.mkdir(parents=True, exist_ok=True)
+try:
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+except OSError:
+    # Same read-only-filesystem situation as logger.py — on Vercel this cache
+    # simply can't persist between invocations anyway (each is a fresh
+    # process), so falling back to /tmp just means "cache for this one
+    # invocation only" instead of crashing on import.
+    import tempfile
+    CACHE_DIR = Path(tempfile.gettempdir()) / "devastra_historical_cache"
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 DATA_BASE_URL = "https://data.alpaca.markets"
 
