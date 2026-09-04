@@ -79,7 +79,7 @@ def _newton_raphson_iv(
         price_diff = bsm_price(S, K, T, r, sigma, opt_type) - market_price
 
         if abs(price_diff) < NR_PRICE_TOLERANCE:
-            return float(sigma)
+            return float(sigma) # completed converged successfully
 
         v = vega(S, K, T, r, sigma)
         if v < NR_MIN_VEGA:
