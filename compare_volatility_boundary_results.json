@@ -1,0 +1,42 @@
+[
+  {
+    "realized_vol": 0.3,
+    "implied_vol": 0.351,
+    "vol_spread": 0.05099999999999999,
+    "expected_verdict": "overpriced",
+    "actual_verdict": "overpriced",
+    "status": "OK"
+  },
+  {
+    "realized_vol": 0.3,
+    "implied_vol": 0.349,
+    "vol_spread": 0.04899999999999999,
+    "expected_verdict": "fair",
+    "actual_verdict": "fair",
+    "status": "OK"
+  },
+  {
+    "realized_vol": 0.3,
+    "implied_vol": 0.249,
+    "vol_spread": -0.05099999999999999,
+    "expected_verdict": "underpriced",
+    "actual_verdict": "underpriced",
+    "status": "OK"
+  },
+  {
+    "realized_vol": 0.3,
+    "implied_vol": 0.251,
+    "vol_spread": -0.04899999999999999,
+    "expected_verdict": "fair",
+    "actual_verdict": "fair",
+    "status": "OK"
+  },
+  {
+    "realized_vol": 0.3,
+    "implied_vol": 0.3,
+    "vol_spread": 0.0,
+    "expected_verdict": "fair",
+    "actual_verdict": "fair",
+    "status": "OK"
+  }
+]

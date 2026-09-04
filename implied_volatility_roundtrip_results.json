@@ -1,0 +1,2978 @@
+[
+  {
+    "true_sigma": 0.1,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 30.009588384342237,
+    "recovered_sigma": 1.4205278971891995,
+    "error": 1.3205278971891994,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 0.0,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 30.067091115557176,
+    "recovered_sigma": 0.5236469593477178,
+    "error": 0.4236469593477178,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 1.045566821652607e-148,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 30.287080936505703,
+    "recovered_sigma": 0.25544035646319124,
+    "error": 0.15544035646319124,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 2.4156996221653996e-37,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 30.85771554675111,
+    "recovered_sigma": 0.15079833355968267,
+    "error": 0.05079833355968266,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 2.8904629877926736e-14,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 70.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 33.41398351977858,
+    "recovered_sigma": 0.1000100463438897,
+    "error": 1.0046343889694165e-05,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 70.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 4.323482857223411e-05,
+    "recovered_sigma": 0.09999996302818584,
+    "error": 3.697181416573159e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 10.012327922725746,
+    "recovered_sigma": 0.42921667798551344,
+    "error": 0.32921667798551346,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 2.9655935403607167e-92,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 10.086260005716369,
+    "recovered_sigma": 0.1634896890977142,
+    "error": 0.06348968909771419,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 1.3456323539284588e-15,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 10.369146782930954,
+    "recovered_sigma": 0.10002173420713847,
+    "error": 2.173420713846852e-05,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 4.272170935431651e-05,
+    "recovered_sigma": 0.10000003159693556,
+    "error": 3.159693555410126e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 11.116706957074925,
+    "recovered_sigma": 0.10000001293770053,
+    "error": 1.2937700522019924e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 0.013929825537824181,
+    "recovered_sigma": 0.10000001906741808,
+    "error": 1.9067418075002784e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 90.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 14.628837623936462,
+    "recovered_sigma": 0.1000000018855002,
+    "error": 1.8855002004158905e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 90.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 0.23948582900072335,
+    "recovered_sigma": 0.10000021932598599,
+    "error": 2.1932598598395359e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 0.21572174249610043,
+    "recovered_sigma": 0.10000003471300582,
+    "error": 3.471300581703307e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 0.20202405057861483,
+    "recovered_sigma": 0.1000000383530151,
+    "error": 3.8353015097136733e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 0.6014513149859511,
+    "recovered_sigma": 0.10000000000005817,
+    "error": 5.816180870255039e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 0.5056068641899856,
+    "recovered_sigma": 0.1000000000000999,
+    "error": 9.989231664064846e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 1.3581106964183007,
+    "recovered_sigma": 0.10000000006440282,
+    "error": 6.440281641317824e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 0.9479950728387294,
+    "recovered_sigma": 0.10000000019321356,
+    "error": 1.93213556265448e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 2.641671714082797,
+    "recovered_sigma": 0.10000001072328933,
+    "error": 1.0723289325942353e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 1.416363790152694,
+    "recovered_sigma": 0.10000000000000156,
+    "error": 1.5543122344752192e-15,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 100.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 6.804957708822144,
+    "recovered_sigma": 0.10000000002800087,
+    "error": 2.8000865515132034e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 100.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 1.92790015889355,
+    "recovered_sigma": 0.10000000000000758,
+    "error": 7.577272143066693e-15,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 1.0595917824288899e-75,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 9.984932538890774,
+    "recovered_sigma": 0.38802596782763105,
+    "error": 0.288025967827631,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 9.778320734629135e-13,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 9.894571104125419,
+    "recovered_sigma": 0.14539393410425058,
+    "error": 0.04539393410425058,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 0.0005959851261983784,
+    "recovered_sigma": 0.0999999773873523,
+    "error": 2.2612647698760924e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 9.549468799188688,
+    "recovered_sigma": 0.10000289854723057,
+    "error": 2.898547230567594e-06,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 0.10150384011207425,
+    "recovered_sigma": 0.09999996311869591,
+    "error": 3.6881304094071865e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 8.753665123788963,
+    "recovered_sigma": 0.10000009035954334,
+    "error": 9.035954333380669e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 2.173945155462846,
+    "recovered_sigma": 0.10000000287847485,
+    "error": 2.8784748473675847e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 6.809181850541407,
+    "recovered_sigma": 0.10000000000700411,
+    "error": 7.0041056288161485e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 0.0,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 29.982193000507266,
+    "recovered_sigma": 1.0298671840602036,
+    "error": 0.9298671840602036,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 7.458250905372697e-81,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 29.87540221396523,
+    "recovered_sigma": 0.38498464138951005,
+    "error": 0.2849846413895101,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 3.706912167265272e-20,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 29.46684968934656,
+    "recovered_sigma": 0.18375843738643152,
+    "error": 0.08375843738643152,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 2.4870895180399246e-07,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 28.40709994759979,
+    "recovered_sigma": 0.10377167966674462,
+    "error": 0.003771679666744618,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 130.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 0.06729965963705964,
+    "recovered_sigma": 0.09999999870692779,
+    "error": 1.2930722187443067e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.1,
+    "strike": 130.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 23.727124844729886,
+    "recovered_sigma": 0.10000000000126336,
+    "error": 1.2633505352965813e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 30.009588384342237,
+    "recovered_sigma": 1.4205278971891995,
+    "error": 1.1205278971891994,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 7.653743188903955e-116,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 30.067091115557176,
+    "recovered_sigma": 0.5236469593477178,
+    "error": 0.22364695934771778,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 1.4588328634128276e-18,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 30.287102181533413,
+    "recovered_sigma": 0.300332461443783,
+    "error": 0.00033246144378301645,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 2.124502771559721e-05,
+    "recovered_sigma": 0.3000000285433065,
+    "error": 2.8543306496153775e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 30.884303239089675,
+    "recovered_sigma": 0.30000015454638584,
+    "error": 1.5454638585543634e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 0.026587692338591484,
+    "recovered_sigma": 0.30000000728352466,
+    "error": 7.283524672274666e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 70.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 34.39531644716754,
+    "recovered_sigma": 0.3000000000001603,
+    "error": 1.603162047558726e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 70.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 0.9813761622175274,
+    "recovered_sigma": 0.30000000045496933,
+    "error": 4.549693399802379e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 10.012327922727692,
+    "recovered_sigma": 0.4292167138628569,
+    "error": 0.12921671386285694,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 1.954829308007777e-12,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 10.092822946836009,
+    "recovered_sigma": 0.30000471873909035,
+    "error": 4.718739090359136e-06,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 0.006562941119642229,
+    "recovered_sigma": 0.3000000032625154,
+    "error": 3.2625154244847465e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 10.76153363970414,
+    "recovered_sigma": 0.30000000000034255,
+    "error": 3.4255931424809205e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 0.3924295784825311,
+    "recovered_sigma": 0.3000000135272563,
+    "error": 1.3527256315093439e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 12.81824630895892,
+    "recovered_sigma": 0.30000000000005794,
+    "error": 5.795364188543317e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 1.71546917742182,
+    "recovered_sigma": 0.3000001388652952,
+    "error": 1.3886529520723556e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 90.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 19.69744208683972,
+    "recovered_sigma": 0.3000000000182794,
+    "error": 1.8279433522394584e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 90.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 5.308090291903987,
+    "recovered_sigma": 0.30000000000028776,
+    "error": 2.877698079828406e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 0.6332711407079614,
+    "recovered_sigma": 0.3000000002203295,
+    "error": 2.2032953239659037e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 0.6195734487904687,
+    "recovered_sigma": 0.3000000003000014,
+    "error": 3.000014126008921e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 1.7048750538182276,
+    "recovered_sigma": 0.30000000783636943,
+    "error": 7.836369442237867e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 1.609030603022262,
+    "recovered_sigma": 0.3000000181779834,
+    "error": 1.8177983396316932e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 3.6320671844517847,
+    "recovered_sigma": 0.30000005966632654,
+    "error": 5.966632654619275e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 3.2219515608722205,
+    "recovered_sigma": 0.3000000000000005,
+    "error": 4.996003610813204e-16,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 6.533952722596929,
+    "recovered_sigma": 0.30000000000000054,
+    "error": 5.551115123125783e-16,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 5.308644798666826,
+    "recovered_sigma": 0.30000000000007454,
+    "error": 7.455147610357926e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 100.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 14.231254785985819,
+    "recovered_sigma": 0.30000000000820704,
+    "error": 8.207046153785313e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 100.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 9.354197236057232,
+    "recovered_sigma": 0.30000000030880286,
+    "error": 3.088028721620617e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 1.749791410792565e-10,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 9.984932539065767,
+    "recovered_sigma": 0.3880287577313928,
+    "error": 0.08802875773139279,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 0.017349762485608933,
+    "recovered_sigma": 0.3000000000161287,
+    "error": 1.612870947909073e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 9.91192086661006,
+    "recovered_sigma": 0.30000000294738255,
+    "error": 2.9473825602366333e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 0.6672601122683783,
+    "recovered_sigma": 0.30000000003533567,
+    "error": 3.53356788274084e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 10.216132926330857,
+    "recovered_sigma": 0.300000003501399,
+    "error": 3.5013990040688725e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 2.802826969240673,
+    "recovered_sigma": 0.30000000000103894,
+    "error": 1.0389467064442215e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 11.454988252917559,
+    "recovered_sigma": 0.30000000087440976,
+    "error": 8.744097668156314e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 10.02007762005595,
+    "recovered_sigma": 0.30000000000123767,
+    "error": 1.2376766278521245e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 14.655314315134511,
+    "recovered_sigma": 0.30000000000354815,
+    "error": 3.5481617643995378e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 7.036280448457379e-64,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 29.982193000507266,
+    "recovered_sigma": 1.0298671840602036,
+    "error": 0.7298671840602036,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 1.1255238785458516e-10,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 29.87540221407778,
+    "recovered_sigma": 0.38498640652467786,
+    "error": 0.08498640652467787,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 0.003701297077983834,
+    "recovered_sigma": 0.2999999852772566,
+    "error": 1.4722743413297934e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 29.47055098642454,
+    "recovered_sigma": 0.30000002746561494,
+    "error": 2.746561494904043e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 0.3246302160978569,
+    "recovered_sigma": 0.30000000003229416,
+    "error": 3.2294167340296553e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 28.73172991498869,
+    "recovered_sigma": 0.30000013066528836,
+    "error": 1.3066528836702673e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 130.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 4.673372434409671,
+    "recovered_sigma": 0.30000001212883065,
+    "error": 1.2128830662039292e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.3,
+    "strike": 130.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 28.3331976195025,
+    "recovered_sigma": 0.3000000102075292,
+    "error": 1.0207529210770616e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 30.009588384342237,
+    "recovered_sigma": 1.4205278971891995,
+    "error": 0.9205278971891995,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 2.0038880888852656e-43,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 30.06709124169656,
+    "recovered_sigma": 0.526640238842183,
+    "error": 0.02664023884218303,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 1.2613937972992573e-07,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 30.309793295840194,
+    "recovered_sigma": 0.5000007897427073,
+    "error": 7.897427073411123e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 0.02271235933450133,
+    "recovered_sigma": 0.5000000085527222,
+    "error": 8.552722197130436e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 31.478546381283316,
+    "recovered_sigma": 0.5000000001128944,
+    "error": 1.1289436052663859e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 0.6208308345322395,
+    "recovered_sigma": 0.49999987581649064,
+    "error": 1.2418350936460598e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 70.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 38.11622812430055,
+    "recovered_sigma": 0.5000000121100168,
+    "error": 1.2110016767152842e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 70.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 4.702287839350541,
+    "recovered_sigma": 0.49999997281129427,
+    "error": 2.718870573126253e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 10.012343372716671,
+    "recovered_sigma": 0.5000668488120976,
+    "error": 6.684881209761961e-05,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 1.5449990926794457e-05,
+    "recovered_sigma": 0.49999999552528324,
+    "error": 4.47471676379152e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 10.263573107277026,
+    "recovered_sigma": 0.5000000077975363,
+    "error": 7.797536283327133e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 0.1773131015606575,
+    "recovered_sigma": 0.49999999594280736,
+    "error": 4.0571926374077805e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 12.104890450129332,
+    "recovered_sigma": 0.5000000000000286,
+    "error": 2.864375403532904e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 1.7357863889077372,
+    "recovered_sigma": 0.5000000008790371,
+    "error": 8.790370653599666e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 15.90492670311987,
+    "recovered_sigma": 0.5000000000106195,
+    "error": 1.0619505275144547e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 4.802149571582774,
+    "recovered_sigma": 0.5000000000000047,
+    "error": 4.6629367034256575e-15,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 90.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 26.372714880562448,
+    "recovered_sigma": 0.5000000099195037,
+    "error": 9.919503662914053e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 90.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 11.983363085626713,
+    "recovered_sigma": 0.5000000000002054,
+    "error": 2.0539125955565396e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 1.0508415112611402,
+    "recovered_sigma": 0.49999999848032417,
+    "error": 1.519675829619871e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 1.0371438193436546,
+    "recovered_sigma": 0.499999998425561,
+    "error": 1.5744390235994388e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 2.808686694915373,
+    "recovered_sigma": 0.4999999278689068,
+    "error": 7.213109320947098e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 2.7128422441194004,
+    "recovered_sigma": 0.4999999207871245,
+    "error": 7.921287548118272e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 5.909447928792744,
+    "recovered_sigma": 0.499999999999993,
+    "error": 6.994405055138486e-15,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 5.49933230521318,
+    "recovered_sigma": 0.4999999999999897,
+    "error": 1.0325074129013956e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 10.443794217415508,
+    "recovered_sigma": 0.4999999999986596,
+    "error": 1.3403722576299515e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 9.218486293485398,
+    "recovered_sigma": 0.4999999999973784,
+    "error": 2.6216251391986134e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 100.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 21.79260421286685,
+    "recovered_sigma": 0.49999999918925575,
+    "error": 8.107442495131068e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 100.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 16.915546662938254,
+    "recovered_sigma": 0.49999999688890395,
+    "error": 3.111096047447859e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 9.244758591266458e-05,
+    "recovered_sigma": 0.5000000084614808,
+    "error": 8.461480849319969e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 9.985024986476688,
+    "recovered_sigma": 0.5000021338274337,
+    "error": 2.1338274337479035e-06,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 0.2887263365713544,
+    "recovered_sigma": 0.4999998777867396,
+    "error": 1.2221326040062763e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 10.18329744069581,
+    "recovered_sigma": 0.5000000000535854,
+    "error": 5.358535837274303e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 2.3814843923192868,
+    "recovered_sigma": 0.5000000017294081,
+    "error": 1.7294080612018092e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 11.930357206381785,
+    "recovered_sigma": 0.500000016884998,
+    "error": 1.6884997955379788e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 6.5479898337242375,
+    "recovered_sigma": 0.5000000000022068,
+    "error": 2.2067903060474237e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 15.200151117401127,
+    "recovered_sigma": 0.5000000000000107,
+    "error": 1.0658141036401503e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 17.96232432914295,
+    "recovered_sigma": 0.4999999992291399,
+    "error": 7.708600979761115e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 22.5975610242215,
+    "recovered_sigma": 0.49999999596248157,
+    "error": 4.037518430699549e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 1.8241317212257744e-24,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 29.982193000507266,
+    "recovered_sigma": 1.0298671840602036,
+    "error": 0.5298671840602036,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 0.0001491388327217822,
+    "recovered_sigma": 0.5000000569922995,
+    "error": 5.6992299546365643e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 29.87555135279797,
+    "recovered_sigma": 0.5000360719157831,
+    "error": 3.6071915783142394e-05,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 0.2314358720759233,
+    "recovered_sigma": 0.4999999938259325,
+    "error": 6.174067479491896e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 29.69828556142248,
+    "recovered_sigma": 0.5000000000288572,
+    "error": 2.8857249922964456e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 2.3013736211620994,
+    "recovered_sigma": 0.5000000599331037,
+    "error": 5.993310370211447e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 30.70847332005296,
+    "recovered_sigma": 0.5000000001412611,
+    "error": 1.4126111391732366e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 130.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 12.159073531985058,
+    "recovered_sigma": 0.500000000123549,
+    "error": 1.235489488493613e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.5,
+    "strike": 130.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 35.818898717077886,
+    "recovered_sigma": 0.5000000000028942,
+    "error": 2.8942404028953206e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 30.009588384342237,
+    "recovered_sigma": 1.4205278971891995,
+    "error": 0.6205278971891994,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 3.1641239031515103e-18,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 30.06863491404492,
+    "recovered_sigma": 0.800013779128372,
+    "error": 1.3779128371971261e-05,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 0.001543798487745593,
+    "recovered_sigma": 0.7999999147993314,
+    "error": 8.520066863137998e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 30.758933611213394,
+    "recovered_sigma": 0.8000000039031848,
+    "error": 3.903184775388979e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 0.47185267470768366,
+    "recovered_sigma": 0.7999999991050243,
+    "error": 8.949757601683928e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 33.96496378621048,
+    "recovered_sigma": 0.8000000000005933,
+    "error": 5.933031843596837e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 3.1072482394593983,
+    "recovered_sigma": 0.7999999457607242,
+    "error": 5.423927584846666e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 70.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 45.64971632047066,
+    "recovered_sigma": 0.8000000000003211,
+    "error": 3.2107649872159527e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 70.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 12.235776035520633,
+    "recovered_sigma": 0.8000000000003001,
+    "error": 3.000932835561798e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 10.01982162437443,
+    "recovered_sigma": 0.8000053584122256,
+    "error": 5.358412225597853e-06,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 0.0074937016486880115,
+    "recovered_sigma": 0.8000002236995073,
+    "error": 2.2369950725131815e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 11.029922128361022,
+    "recovered_sigma": 0.8000000001817706,
+    "error": 1.8177059857293898e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 0.9436621226446409,
+    "recovered_sigma": 0.8000000000457705,
+    "error": 4.5770498502406554e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 14.803357609429092,
+    "recovered_sigma": 0.8000000000254508,
+    "error": 2.545075261650709e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 4.4342535482074865,
+    "recovered_sigma": 0.8000000000000075,
+    "error": 7.438494264988549e-15,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 21.060234498489145,
+    "recovered_sigma": 0.8000000001435441,
+    "error": 1.4354406552286036e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 9.957457366952053,
+    "recovered_sigma": 0.8000000000003435,
+    "error": 3.4350300381902343e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 90.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 36.55528872528801,
+    "recovered_sigma": 0.799999999999999,
+    "error": 9.992007221626409e-16,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 90.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 22.165936930352274,
+    "recovered_sigma": 0.7999999999999953,
+    "error": 4.773959005888173e-15,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 1.6771488056376,
+    "recovered_sigma": 0.7999999973047627,
+    "error": 2.6952373666233598e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 1.6634511137201144,
+    "recovered_sigma": 0.7999999969400667,
+    "error": 3.0599333067371504e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 4.463511380550919,
+    "recovered_sigma": 0.7999998820305272,
+    "error": 1.1796947285702686e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 4.367666929754954,
+    "recovered_sigma": 0.7999998348445653,
+    "error": 1.651554347725792e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 9.317633315631724,
+    "recovered_sigma": 0.7999999999999752,
+    "error": 2.4868995751603507e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 8.907517692052153,
+    "recovered_sigma": 0.7999999999998995,
+    "error": 1.0058620603103918e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 16.26805449965154,
+    "recovered_sigma": 0.7999999999970738,
+    "error": 2.926214826004525e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 15.042746575721438,
+    "recovered_sigma": 0.7999999999648335,
+    "error": 3.516653634960676e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 100.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 32.82098246699006,
+    "recovered_sigma": 0.7999999997423521,
+    "error": 2.576479030125256e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 100.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 27.943924917061473,
+    "recovered_sigma": 0.7999999999999997,
+    "error": 3.3306690738754696e-16,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 0.017401997751163467,
+    "recovered_sigma": 0.8000000714318141,
+    "error": 7.14318140193626e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 10.00233453664194,
+    "recovered_sigma": 0.800000008361654,
+    "error": 8.361653924815471e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 1.2722757576246408,
+    "recovered_sigma": 0.800000000000041,
+    "error": 4.0967229608668276e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 11.166846861749079,
+    "recovered_sigma": 0.8000000000078089,
+    "error": 7.808864666003501e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 5.533851907703394,
+    "recovered_sigma": 0.8000000003780033,
+    "error": 3.7800329533155264e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 15.082724721765885,
+    "recovered_sigma": 0.8000000000013164,
+    "error": 1.3163914402980481e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 12.451599383735882,
+    "recovered_sigma": 0.8000000011773917,
+    "error": 1.177391628637281e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 21.103760667412757,
+    "recovered_sigma": 0.800000002923009,
+    "error": 2.9230089459986175e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 29.5354723932803,
+    "recovered_sigma": 0.7999999894198859,
+    "error": 1.0580114118141637e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 34.17070908835886,
+    "recovered_sigma": 0.7999999893101529,
+    "error": 1.0689847118605655e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 1.379816032107562e-10,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 29.98219300064524,
+    "recovered_sigma": 1.0298719266586032,
+    "error": 0.22987192665860312,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 0.038728847932471666,
+    "recovered_sigma": 0.7999999991663947,
+    "error": 8.336052959023732e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 29.914131061897706,
+    "recovered_sigma": 0.8000000455325585,
+    "error": 4.5532558501371057e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 1.693175327087289,
+    "recovered_sigma": 0.8000000000016934,
+    "error": 1.6933121571582888e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 31.16002501643385,
+    "recovered_sigma": 0.8000000099182735,
+    "error": 9.918273424780466e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 7.158644742014342,
+    "recovered_sigma": 0.8000000000828386,
+    "error": 8.283851382628882e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 35.56574444090519,
+    "recovered_sigma": 0.8000000000021404,
+    "error": 2.1403989691748393e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 130.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 24.080351808088558,
+    "recovered_sigma": 0.7999999967525454,
+    "error": 3.2474546385330427e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 0.8,
+    "strike": 130.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 47.74017699318138,
+    "recovered_sigma": 0.7999999999826156,
+    "error": 1.7384427231093014e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 30.009588390206986,
+    "recovered_sigma": 1.420727875460443,
+    "error": 0.22072787546044315,
+    "status": "mismatch"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 5.864750639378426e-09,
+    "status": "skipped",
+    "reason": "price underflowed below MIN_MEANINGFUL_PRICE"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 30.144640779546464,
+    "recovered_sigma": 1.2000009498479594,
+    "error": 9.49847959397232e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 0.07754966398928742,
+    "recovered_sigma": 1.2000000000133457,
+    "error": 1.3345768934414082e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 32.44575218098015,
+    "recovered_sigma": 1.2000000001928801,
+    "error": 1.9288015629115307e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 2.1586712444744443,
+    "recovered_sigma": 1.2000000001830087,
+    "error": 1.8300871929000095e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 38.763829409180836,
+    "recovered_sigma": 1.2000000000005866,
+    "error": 5.866418462119327e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 7.906113862429763,
+    "recovered_sigma": 1.2000000000035584,
+    "error": 3.5584868385285517e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 70.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 56.1757173966385,
+    "recovered_sigma": 1.1999999999987785,
+    "error": 1.2214673716925972e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 70.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 22.761777111688488,
+    "recovered_sigma": 1.1999999939529833,
+    "error": 6.047016665178262e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 10.126784123309747,
+    "recovered_sigma": 1.2000008175474421,
+    "error": 8.175474421889817e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 0.11445620058401573,
+    "recovered_sigma": 1.2000000508683746,
+    "error": 5.086837462364713e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 12.571680277122795,
+    "recovered_sigma": 1.2000000205577417,
+    "error": 2.05577417311531e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 2.4854202714064364,
+    "recovered_sigma": 1.2000000294273736,
+    "error": 2.942737364897141e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 18.776779246839546,
+    "recovered_sigma": 1.2000000581211165,
+    "error": 5.812111658620722e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 8.40767518561794,
+    "recovered_sigma": 1.2000000000065754,
+    "error": 6.575406885644952e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 28.092888116120257,
+    "recovered_sigma": 1.1999999580326997,
+    "error": 4.1967300301593014e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 16.99011098458316,
+    "recovered_sigma": 1.1999999990026624,
+    "error": 9.97337545882715e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 90.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 49.40550255998288,
+    "recovered_sigma": 1.1999999932551173,
+    "error": 6.744882652398587e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 90.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 35.01615076504714,
+    "recovered_sigma": 1.199999999955432,
+    "error": 4.4567904922132584e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 2.512062561985381,
+    "recovered_sigma": 1.1999999963048364,
+    "error": 3.6951635085102907e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 2.4983648700678955,
+    "recovered_sigma": 1.1999999948376896,
+    "error": 5.1623103569653495e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 6.666938262063596,
+    "recovered_sigma": 1.1999998694423628,
+    "error": 1.305576371457562e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 6.57109381126763,
+    "recovered_sigma": 1.1999999999999984,
+    "error": 1.5543122344752192e-15,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 13.835414227705506,
+    "recovered_sigma": 1.1999999999999826,
+    "error": 1.7319479184152442e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 13.425298604125935,
+    "recovered_sigma": 1.1999999999991569,
+    "error": 8.431033649003439e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 23.898937946544834,
+    "recovered_sigma": 1.1999999999999154,
+    "error": 8.459899447643693e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 22.673630022614738,
+    "recovered_sigma": 1.1999999995590425,
+    "error": 4.409574927422e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 100.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 46.52077543572144,
+    "recovered_sigma": 1.1999999958038483,
+    "error": 4.196151648372393e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 100.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 41.64371788579285,
+    "recovered_sigma": 1.1999999999996218,
+    "error": 3.781419621873283e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 0.1863772733799811,
+    "recovered_sigma": 1.2000000000133577,
+    "error": 1.3357759343080033e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 10.17130981227075,
+    "recovered_sigma": 1.2000000192239633,
+    "error": 1.9223963310111003e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 3.089864336794683,
+    "recovered_sigma": 1.200000000009641,
+    "error": 9.640954701239934e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 12.984435440919128,
+    "recovered_sigma": 1.200000004530322,
+    "error": 4.530322117446417e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 10.02956637078912,
+    "recovered_sigma": 1.200000000000002,
+    "error": 1.9984014443252818e-15,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 19.57843918485161,
+    "recovered_sigma": 1.2000000024364172,
+    "error": 2.436417290141435e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 20.341766930825493,
+    "recovered_sigma": 1.1999999870496398,
+    "error": 1.2950360117613968e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 28.99392821450239,
+    "recovered_sigma": 1.199999999999999,
+    "error": 8.881784197001252e-16,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 43.907304026732945,
+    "recovered_sigma": 1.1999999999999884,
+    "error": 1.1546319456101628e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 48.5425407218115,
+    "recovered_sigma": 1.1999999997295931,
+    "error": 2.7040680805612283e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 2.3231198624938405e-05,
+    "recovered_sigma": 1.200000119541255,
+    "error": 1.1954125511692837e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 29.98221623170589,
+    "recovered_sigma": 1.2000508881914402,
+    "error": 5.088819144027923e-05,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 0.46777385221581014,
+    "recovered_sigma": 1.2000000004633924,
+    "error": 4.633924355346153e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 30.34317606618103,
+    "recovered_sigma": 1.2000000267723254,
+    "error": 2.6772325467661062e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 5.084882318443622,
+    "recovered_sigma": 1.2000000000045052,
+    "error": 4.505285033928885e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 34.55173200779018,
+    "recovered_sigma": 1.2000000210596393,
+    "error": 2.1059639365716976e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 14.78735662025126,
+    "recovered_sigma": 1.2000000000531612,
+    "error": 5.316125317733622e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 43.194456319142105,
+    "recovered_sigma": 1.2000000000860973,
+    "error": 8.609735147047104e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 130.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 39.355748407896826,
+    "recovered_sigma": 1.199999999998328,
+    "error": 1.6719958750854857e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 1.2,
+    "strike": 130.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 63.01557359298965,
+    "recovered_sigma": 1.1999999988445087,
+    "error": 1.1554912582312227e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 30.010321926921947,
+    "recovered_sigma": 2.0000001753748227,
+    "error": 1.753748226640539e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 0.0007335425797098498,
+    "recovered_sigma": 2.0000000009651107,
+    "error": 9.651106580577107e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 31.134322030258986,
+    "recovered_sigma": 2.000000343175402,
+    "error": 3.431754018734523e-07,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 1.0672309147018009,
+    "recovered_sigma": 2.0000000296806926,
+    "error": 2.9680692570366318e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 37.814690763925576,
+    "recovered_sigma": 2.000000000007506,
+    "error": 7.505995824885758e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 7.52760982741988,
+    "recovered_sigma": 2.000000000000716,
+    "error": 7.158718062783009e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 49.60163349541973,
+    "recovered_sigma": 1.9999999999994762,
+    "error": 5.238032230181489e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 70.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 18.74391794866866,
+    "recovered_sigma": 1.9999999892016813,
+    "error": 1.0798318683669095e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 70.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 74.38663228654816,
+    "recovered_sigma": 1.9999999999962241,
+    "error": 3.775868506750157e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 70.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 40.97269200159815,
+    "recovered_sigma": 1.9999999999991396,
+    "error": 8.604228440844963e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 10.826829994024294,
+    "recovered_sigma": 2.0000000017287802,
+    "error": 1.7287802300813837e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 0.8145020712985431,
+    "recovered_sigma": 2.000000001728781,
+    "error": 1.7287811182598034e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 16.257453447287638,
+    "recovered_sigma": 2.0000000000002607,
+    "error": 2.6068036618198676e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 6.171193441571258,
+    "recovered_sigma": 2.0000000021328965,
+    "error": 2.1328965260636323e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 26.95751227237153,
+    "recovered_sigma": 1.9999999496288723,
+    "error": 5.037112771333341e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 16.58840821114993,
+    "recovered_sigma": 1.9999999996889546,
+    "error": 3.1104541164950206e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 41.721049261877496,
+    "recovered_sigma": 1.9999999727143207,
+    "error": 2.728567927157144e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 90.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 30.6182721303404,
+    "recovered_sigma": 1.9999999999984481,
+    "error": 1.5518697438210438e-12,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 90.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 70.68699324217442,
+    "recovered_sigma": 1.9999999997335123,
+    "error": 2.66487720779196e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 90.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 56.29764144723869,
+    "recovered_sigma": 1.9999999999999865,
+    "error": 1.354472090042691e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 4.180978971867937,
+    "recovered_sigma": 1.9999999965880584,
+    "error": 3.4119416181255247e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 4.167281279950451,
+    "recovered_sigma": 1.9999999871972103,
+    "error": 1.2802789717270002e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 11.056993408909563,
+    "recovered_sigma": 1.9999999911826523,
+    "error": 8.817347740830428e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 10.961148958113597,
+    "recovered_sigma": 1.9999999999999942,
+    "error": 5.773159728050814e-15,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 22.72446291629074,
+    "recovered_sigma": 1.9999999999997442,
+    "error": 2.5579538487363607e-13,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 22.31434729271116,
+    "recovered_sigma": 1.9999999999518112,
+    "error": 4.818878629464507e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 38.4325319736926,
+    "recovered_sigma": 1.9999999971150038,
+    "error": 2.8849962419030817e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 100.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 37.2072240497625,
+    "recovered_sigma": 1.9999999531204071,
+    "error": 4.6879592874304876e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 100.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 69.05746979565662,
+    "recovered_sigma": 1.9999999990450943,
+    "error": 9.549057100599612e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 100.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 64.18041224572802,
+    "recovered_sigma": 1.9999999853089523,
+    "error": 1.4691047711679062e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 1.0833389664198663,
+    "recovered_sigma": 2.000000000111753,
+    "error": 1.1175282921271901e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 11.068271505310648,
+    "recovered_sigma": 2.000000000111755,
+    "error": 1.1175504965876826e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 7.27134770381317,
+    "recovered_sigma": 2.000000000011209,
+    "error": 1.120881165661558e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 17.16591880793763,
+    "recovered_sigma": 2.000000000000026,
+    "error": 2.6201263381153694e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 19.158135044526254,
+    "recovered_sigma": 1.9999999863405364,
+    "error": 1.3659463560244944e-08,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 28.707007858588746,
+    "recovered_sigma": 1.9999999999999973,
+    "error": 2.6645352591003757e-15,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 35.4977054190426,
+    "recovered_sigma": 1.9999999999999936,
+    "error": 6.439293542825908e-15,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 44.149866702719486,
+    "recovered_sigma": 1.9999999999999707,
+    "error": 2.930988785010413e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 67.54624835116373,
+    "recovered_sigma": 1.9999999974708884,
+    "error": 2.5291115868242287e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 110.00000000000001,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 72.18148504624229,
+    "recovered_sigma": 1.9999999999280935,
+    "error": 7.190648076971229e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "call",
+    "price": 0.023530399568178817,
+    "recovered_sigma": 2.00000000021278,
+    "error": 2.127800158291393e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0027397260273972603,
+    "option_type": "put",
+    "price": 30.005723400075425,
+    "recovered_sigma": 2.0000000011759083,
+    "error": 1.1759082596540793e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "call",
+    "price": 2.9060988308494053,
+    "recovered_sigma": 2.000000000041601,
+    "error": 4.1600944911124316e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.019178082191780823,
+    "option_type": "put",
+    "price": 32.78150104481463,
+    "recovered_sigma": 2.000000000041602,
+    "error": 4.1601833089544016e-11,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "call",
+    "price": 13.651571894536279,
+    "recovered_sigma": 2.0000000011653567,
+    "error": 1.1653567000280418e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.0821917808219178,
+    "option_type": "put",
+    "price": 43.11842158388284,
+    "recovered_sigma": 2.0000000004085163,
+    "error": 4.0851633187344305e-10,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "call",
+    "price": 30.50414439572837,
+    "recovered_sigma": 1.9999999999999223,
+    "error": 7.771561172376096e-14,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 130.0,
+    "time_to_expiry_years": 0.2465753424657534,
+    "option_type": "put",
+    "price": 58.91124409461922,
+    "recovered_sigma": 1.9999999974640825,
+    "error": 2.5359174760097858e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 130.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "call",
+    "price": 64.81856912547845,
+    "recovered_sigma": 1.9999999901744772,
+    "error": 9.825522839790324e-09,
+    "status": "passed"
+  },
+  {
+    "true_sigma": 2.0,
+    "strike": 130.0,
+    "time_to_expiry_years": 1.0,
+    "option_type": "put",
+    "price": 88.47839431057128,
+    "recovered_sigma": 1.9999999995596738,
+    "error": 4.403262199303981e-10,
+    "status": "passed"
+  }
+]
