@@ -8,7 +8,6 @@ headers = get_header()
 
 response = requests.get(url, headers=headers)
 
-# Create a JSON file with the response data
-file_path = create_json_file("response.json", response)
+file_path = create_json_file("response.json", response) # Create a JSON file with the response data
 
 print(response.text)
