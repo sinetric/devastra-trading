@@ -3,6 +3,7 @@ import json
 from config.settings import get_settings
 from src.outbound.header import get_header
 from src.outbound.models import Create_OCC_Format, OCC_Order, Option_Submission
+from src.utils import logger
 
 SETTINGS = get_settings()
 
@@ -36,6 +37,9 @@ def submit_option_order(Option_Submission: Option_Submission):
     BASE_URL = SETTINGS.BASE_URL
     HEADERS = get_header()
     URL = f"{BASE_URL}/v2/orders"
+
+    logger.log(f"Submitting an order:")
+    logger.log(f"\norder_symbol: {Option_Submission.order_symbol}\nqty: {Option_Submission.qty}\nside: {Option_Submission.order_symbol}\n strike_price: {Option_Submission.qty}\nstatus: {Option_Submission.order_symbol}")
 
     response = requests.post(
         URL,
