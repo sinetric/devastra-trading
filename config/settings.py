@@ -25,5 +25,14 @@ class Settings(BaseModel):
     MONTE_CARLO_SIMULATIONS: int = 50000  # number of simulated price paths per contract
     EV_PROFIT_THRESHOLD: float = 0.0      # minimum simulated expected profit (per share) to flag as a candidate
 
+    # exit strategy (see strategy/exit_strategy.py) — any one triggering is enough to close
+    TAKE_PROFIT_PCT: float = 0.50     # close once position value is up 50% from entry
+    STOP_LOSS_PCT: float = 0.30       # close once position value is down 30% from entry
+    EXIT_DAYS_BEFORE_EXPIRY: int = 3  # force-close this many days before expiration regardless of P&L
+
+    # candidate selection (see trading/options.py select_candidates()) — entry-side ranking
+    TOP_N_CANDIDATES: int = 5           # how many ranked candidates to return per scan
+    MIN_EV_MARGIN_PCT: float = 0.05     # require expected_value/premium >= 5% — filters out barely-profitable noise
+
 def get_settings():
     return Settings()

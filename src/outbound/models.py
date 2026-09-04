@@ -208,3 +208,49 @@ class Expected_Value_Result(BaseModel):
     expected_payoff: float
     expected_value: float
     is_profitable: bool
+
+class Position(BaseModel):
+    """
+    An open options position — the minimal shape exit_strategy.py needs to
+    evaluate whether to close it. How positions get created/stored/removed
+    (the ledger) is separate from this decision logic.
+    """
+    contract_symbol: str
+    underlying_symbol: str
+    option_type: option_type
+    strike_price: float
+    expiration_date: datetime
+    qty: int
+    entry_premium: float
+    entry_date: datetime
+
+class Exit_Decision(BaseModel):
+    """
+    Result of evaluating one open position against all exit rules. Any one
+    triggered reason is sufficient grounds to close — reasons are combined
+    with OR logic, not required to all agree.
+    """
+    contract_symbol: str
+    should_exit: bool
+    triggered_reasons: List[str]
+    current_premium: float
+    pnl_pct: float
+    days_to_expiry: int
+
+class Candidate_Result(BaseModel):
+    """
+    One entry candidate produced by trading/options.py select_candidates() —
+    a contract that passed the underpriced-vol filter and the EV-margin
+    filter, ranked against the others by ev_per_premium (expected return
+    on the premium paid, not raw expected_value — a $0.50 EV on a $1
+    premium beats a $0.50 EV on a $10 premium).
+    """
+    contract_symbol: str
+    underlying_symbol: str
+    option_type: option_type
+    strike_price: float
+    days_to_expiry: int
+    premium: float
+    vol_comparison: Volatility_Comparison
+    ev_result: Expected_Value_Result
+    ev_per_premium: float
