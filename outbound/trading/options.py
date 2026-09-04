@@ -2,11 +2,13 @@ import requests
 import json
 from config.settings import get_settings
 from header import get_header
-from models import CreateOCCFormat
+from models import Create_OCC_Format, OCC_Order, Option_Submission
 
 SETTINGS = get_settings()
 
-def get_option_contract_symbol(non_occ_format: CreateOCCFormat):
+# fetching
+
+def get_option_contract_symbol(non_occ_format: Create_OCC_Format) -> OCC_Order:
     BASE_URL = SETTINGS.BASE_URL
     headers = get_header()
     url = f"{BASE_URL}/v2/options/contracts"
@@ -23,5 +25,24 @@ def get_option_contract_symbol(non_occ_format: CreateOCCFormat):
             "status": non_occ_format.status,
         }
     )
+    contracts = response.json()["option_contracts"]
+    symbol: OCC_Order = contracts[0]["symbol"]   # e.g. "AAPL260918C00230000"
 
-    return response
+    return symbol
+
+# posting
+
+def submit_option_order(Option_Submission: Option_Submission):
+    BASE_URL = SETTINGS.BASE_URL
+    HEADERS = get_header()
+    URL = f"{BASE_URL}/v2/options/orders"
+
+    response = requests.post(
+        URL,
+        headers = HEADERS ,
+        json = Option_Submission.model_dump(mode="json", excludeNone=True)  # Convert Pydantic model to dict, excluding None values
+    )
+    print(f"Response Status Code: {response.status_code}")
+    print(f"Response Body: {response.json()}")
+    
+    return response.json()
