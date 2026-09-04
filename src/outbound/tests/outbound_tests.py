@@ -1,5 +1,6 @@
 import responses
 from config.settings import get_settings
+from outbound.market_data.options_chain import fetch_all_option_snapshots
 from src.outbound.header import get_header
 from src.outbound.models import Option_Submission, option_status
 from src.utils.jsonParser import create_json_file, parse_json_file
@@ -31,3 +32,15 @@ def test_submit_option_order():
     result = submit_option_order(order)
 
     assert result["status"] == "accepted"
+
+@responses.activate
+def test_pagination():
+    responses.add(responses.GET, ".../v1beta1/options/snapshots/AAPL",
+                   json={"snapshots": {"CONTRACT_A": {...}}, "next_page_token": "page2"},
+                   status=200)
+    responses.add(responses.GET, ".../v1beta1/options/snapshots/AAPL",
+                   json={"snapshots": {"CONTRACT_B": {...}}, "next_page_token": None},
+                   status=200)
+
+    result = fetch_all_option_snapshots("AAPL")
+    assert "CONTRACT_A" in result and "CONTRACT_B" in result
