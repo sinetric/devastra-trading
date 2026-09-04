@@ -52,9 +52,7 @@ def fetch_watchlist_snapshots(
     symbols = symbols or WATCHLIST
     headers = get_header()
     url = f"{DATA_BASE_URL}/v2/stocks/snapshots"
-
-    print(headers)
-
+    
     all_snapshots: dict = {}
     batches = list(_chunk_symbols(symbols, SNAPSHOT_BATCH_SIZE))
 
