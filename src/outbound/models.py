@@ -2,6 +2,7 @@ from pydantic import BaseModel, Field
 from enum import Enum
 from datetime import datetime
 from typing import List
+import re
 
 # defining enums
 
@@ -134,3 +135,53 @@ class Volatility_Comparison(BaseModel):
     implied_vol: float
     vol_spread: float
     verdict: str
+
+class Option_Chain_Contract(BaseModel):
+    """
+    One tradable option contract, decoded from its OCC symbol and paired
+    with a usable market price for implied-vol inversion. Produced by
+    market_data/options_chain.py.
+    """
+    contract_symbol: str
+    underlying_symbol: str
+    strike_price: float
+    expiration_date: datetime
+    days_to_expiry: int
+    option_type: option_type
+    market_price: float
+    bid: float
+    ask: float
+
+class Decoded_OCC_Symbol(BaseModel):
+    """
+    A single option contract's identity, decoded directly from its OCC
+    symbol (e.g. "AAPL260918C00230000") — not a search filter like
+    Create_OCC_Format, an exact single-contract result.
+    """
+    contract_symbol: str
+    root_symbol: str
+    expiration_date: datetime
+    option_type: option_type
+    strike_price: float
+
+# OCC symbol format: <root symbol><YYMMDD><C|P><strike * 1000, zero-padded to 8 digits>
+_OCC_PATTERN = re.compile(r"^([A-Z]+)(\d{6})([CP])(\d{8})$")
+
+def parse_occ_symbol(contract_symbol: str) -> Decoded_OCC_Symbol:
+    """
+    Decode an OCC contract symbol into its components. Raises ValueError
+    if the symbol doesn't match the expected format.
+    """
+    match = _OCC_PATTERN.match(contract_symbol)
+    if not match:
+        raise ValueError(f"'{contract_symbol}' doesn't look like a valid OCC option symbol")
+
+    root_symbol, date_str, type_char, strike_raw = match.groups()
+
+    return Decoded_OCC_Symbol(
+        contract_symbol=contract_symbol,
+        root_symbol=root_symbol,
+        expiration_date=datetime.strptime(date_str, "%y%m%d"),
+        option_type=option_type.CALL if type_char == "C" else option_type.PUT,
+        strike_price=int(strike_raw) / 1000.0,
+    )
