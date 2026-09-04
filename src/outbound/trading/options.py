@@ -1,8 +1,8 @@
 import requests
 import json
 from config.settings import get_settings
-from header import get_header
-from models import Create_OCC_Format, OCC_Order, Option_Submission
+from src.outbound.header import get_header
+from src.outbound.models import Create_OCC_Format, OCC_Order, Option_Submission
 
 SETTINGS = get_settings()
 

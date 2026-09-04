@@ -1,7 +1,7 @@
 import requests
 import json
-from utils.jsonParser import create_json_file, parse_json_file
-from header import get_header
+from src.utils.jsonParser import create_json_file, parse_json_file
+from src.outbound.header import get_header
 
 def fetch_top_market_movers(dump_to_json, json_file_path):
     url = "https://data.alpaca.markets/v1beta1/screener/stocks/movers?top=10"

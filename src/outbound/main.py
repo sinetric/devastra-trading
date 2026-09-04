@@ -1,6 +1,6 @@
 import requests
-from header import get_header
-from utils.jsonParser import create_json_file, parse_json_file
+from src.outbound.header import get_header
+from src.utils.jsonParser import create_json_file, parse_json_file
 import json
 
 """url = "https://data.alpaca.markets/v1beta1/screener/stocks/movers?top=10"
