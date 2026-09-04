@@ -1,5 +1,11 @@
 import json
 
+def write_json(file_path, data):
+    """Write any JSON-serializable Python object directly (not an API response)."""
+    with open(file_path, "w") as json_file:
+        json.dump(data, json_file, indent=2)
+    return file_path
+
 def create_json_file(file_path, data): # create json file and write data to it
     with open(file_path, "w") as json_file:
         json.dump(data.json(), json_file)
