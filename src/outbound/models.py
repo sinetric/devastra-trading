@@ -185,3 +185,26 @@ def parse_occ_symbol(contract_symbol: str) -> Decoded_OCC_Symbol:
         option_type=option_type.CALL if type_char == "C" else option_type.PUT,
         strike_price=int(strike_raw) / 1000.0,
     )
+
+class Expected_Value_Result(BaseModel):
+    """
+    Monte Carlo expected value for a single contract — simulates future
+    stock prices using realized (not implied) volatility under a
+    risk-neutral drift, averages the resulting option payoff, and compares
+    it against the actual premium. See strategy/expected_value.py for why
+    that combination (not implied vol) is what makes this a real edge
+    signal instead of just reproducing the market's own price.
+    """
+    contract_symbol: str
+    underlying_symbol: str
+    option_type: option_type
+    strike_price: float
+    days_to_expiry: int
+    spot_price: float
+    premium: float
+    annual_vol_used: float
+    risk_free_rate_used: float
+    simulations: int
+    expected_payoff: float
+    expected_value: float
+    is_profitable: bool
