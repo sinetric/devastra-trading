@@ -9,14 +9,15 @@ from src.outbound.trading.options import get_option_contract_symbol, submit_opti
 from src.outbound.models import Create_OCC_Format, Option_Submission
 from config.settings import get_settings
 
-SCAN_INTERVAL_SECONDS = 30       # how often to re-scan the watchlist while market is open
-CLOSED_MARKET_SLEEP_SECONDS = 300  # check less frequently while the market's closed
+SETTINGS = get_settings()
 
+SCAN_INTERVAL_SECONDS = SETTINGS.SCAN_INTERVAL_SECONDS       # how often to re-scan the watchlist while market is open
+CLOSED_MARKET_SLEEP_SECONDS = SETTINGS.CLOSED_MARKET_SLEEP_SECONDS  # check less frequently while the market's closed
 
 def is_market_open(settings) -> bool:
-    """Check Alpaca's clock endpoint so we don't scan/trade outside market hours."""
     response = requests.get(f"{settings.BASE_URL}/v2/clock", headers=get_header())
     response.raise_for_status()
+    
     return response.json()["is_open"]
 
 
