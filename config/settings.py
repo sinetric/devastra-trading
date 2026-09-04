@@ -2,7 +2,7 @@ from pydantic import BaseModel
 
 class Settings(BaseModel):
     BASE_URL: str = "https://paper-api.alpaca.markets" # paper trading base URL
-    ENABLE_DRY_RUNNING: bool = True # enable dry running for testing purposes (no trades will be executed)
+    ENABLE_DRY_RUNNING: bool = False # enable dry running for testing purposes (no trades will be executed)
     SCAN_INTERVAL_SECONDS: int = 10 # how often to re-scan the watchlist while market is open
     CLOSED_MARKET_SLEEP_SECONDS: int = 300 # check less frequently while the market's closed
     RUN_DESPITE_MARKET_CLOSED: bool = True # if True, the bot will run even when the market is closed (useful for testing)
@@ -33,6 +33,20 @@ class Settings(BaseModel):
     # candidate selection (see trading/options.py select_candidates()) — entry-side ranking
     TOP_N_CANDIDATES: int = 5           # how many ranked candidates to return per scan
     MIN_EV_MARGIN_PCT: float = 0.05     # require expected_value/premium >= 5% — filters out barely-profitable noise
+    MIN_CONTRACT_PREMIUM: float = 0.05  # skip contracts priced this cheap or below — ev_per_premium divides by
+                                         # premium, so a near-zero/illiquid quote can produce an absurd ratio
+                                         # (e.g. a real $0.02 quote once produced a "15,510% expected return")
+                                         # that would dominate ranking and position sizing on pure noise
+
+    # order execution (see main.py scan_and_trade()/evaluate_exits())
+    DEFAULT_ORDER_QTY: int = 1  # fallback flat qty if account info can't be fetched or sizing fails
+
+    # position sizing (see strategy/position_sizing.py) — qty scales with account risk
+    # budget and how strong the edge is, instead of always buying DEFAULT_ORDER_QTY
+    MAX_RISK_PER_TRADE_PCT: float = 0.02   # never risk more than 2% of account equity on one trade
+    MIN_ORDER_QTY: int = 1                 # size at the weakest edge that still clears MIN_EV_MARGIN_PCT
+    MAX_ORDER_QTY: int = 10                # size cap at/above HIGH_CONVICTION_EV_PCT, regardless of risk budget
+    HIGH_CONVICTION_EV_PCT: float = 0.30   # ev_per_premium at/above this scales to MAX_ORDER_QTY
 
 def get_settings():
     return Settings()

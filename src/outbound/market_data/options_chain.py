@@ -50,6 +50,26 @@ def _extract_market_price(snapshot: dict) -> float | None:
     return None
 
 
+def extract_bid_price(snapshot: dict) -> float | None:
+    """
+    The price we'd actually receive selling right now — the bid, not the
+    ask (that's the buy-side cost) and not the midpoint (optimistic for a
+    sell). Falls back to the last trade price if there's no live bid.
+    Used by main.py's exit scan to price open positions realistically.
+    """
+    quote = snapshot.get("latestQuote", {})
+    bid = quote.get("bp", 0)
+    if bid > 0:
+        return bid
+
+    trade = snapshot.get("latestTrade", {})
+    trade_price = trade.get("p", 0)
+    if trade_price > 0:
+        return trade_price
+
+    return None
+
+
 def fetch_all_option_snapshots(underlying_symbol: str, feed: str | None = None) -> dict:
     """
     Fetch every contract snapshot for `underlying_symbol`, following

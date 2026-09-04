@@ -60,6 +60,33 @@ def compute_expected_payoff(simulated_prices: np.ndarray, strike: float, opt_typ
     return float(payoffs.mean())
 
 
+def compute_batch_expected_payoffs(
+    simulated_prices: np.ndarray, strikes: np.ndarray, is_call: np.ndarray
+) -> np.ndarray:
+    """
+    Same math as compute_expected_payoff(), but for every contract that
+    shares one simulated price distribution (same underlying, same
+    realized vol, same days-to-expiry — i.e. same S, T, sigma) at once.
+
+    This is the actual answer to "can the Monte Carlo runs happen
+    simultaneously": not a thread or process per contract (measured to be
+    net overhead here — see select_candidates()'s docstring), but one
+    broadcasted numpy computation that evaluates every contract's payoff
+    across all simulated paths in a single vectorized pass. That's
+    genuine simultaneity (SIMD-level), not OS-scheduled concurrency, and
+    it doesn't pay a thread/process setup cost per call.
+
+    simulated_prices: (n_sims,)
+    strikes, is_call: (n_contracts,) — parallel arrays, one entry per contract
+    returns: (n_contracts,) mean payoff per contract
+    """
+    diffs = simulated_prices[:, None] - strikes[None, :]      # (n_sims, n_contracts)
+    call_payoffs = np.maximum(diffs, 0)
+    put_payoffs = np.maximum(-diffs, 0)
+    payoffs = np.where(is_call[None, :], call_payoffs, put_payoffs)
+    return payoffs.mean(axis=0)
+
+
 def get_expected_value_result(
     contract_symbol: str,
     underlying_symbol: str,

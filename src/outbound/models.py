@@ -50,11 +50,18 @@ class OCC_Order(BaseModel):
     order_symbol: str
 
 class Option_Submission(BaseModel):
-    order_symbol: str
+    """
+    Shape actually required by Alpaca's POST /v2/orders. (Previous version
+    of this model used `order_symbol`/a bare `side: str`/a stray `status`
+    field that don't match Alpaca's order schema at all — fixed here since
+    main.py now submits real orders off of this model.)
+    """
+    symbol: str
     qty: int
-    side: str
-    strike_price: float
-    status: option_status
+    side: order_side
+    type: order_type = order_type.MARKET
+    time_in_force: str = "day"
+    limit_price: float | None = None
 
 # BaseModel definitions
 
@@ -223,6 +230,18 @@ class Position(BaseModel):
     qty: int
     entry_premium: float
     entry_date: datetime
+
+class Account_Snapshot(BaseModel):
+    """
+    Minimal slice of Alpaca's GET /v2/account response — just what
+    strategy/position_sizing.py needs to size a trade. Alpaca returns
+    these as strings; account.py converts them to float when building
+    this model.
+    """
+    equity: float
+    cash: float
+    buying_power: float
+
 
 class Exit_Decision(BaseModel):
     """

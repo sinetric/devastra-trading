@@ -23,8 +23,6 @@ import numpy as np
 from scipy.stats import norm
 from scipy.optimize import brentq
 
-from tqdm import tqdm
-
 from src.outbound.models import (
     Implied_Volatility_Result,
     Volatility_Comparison,
@@ -77,7 +75,13 @@ def _newton_raphson_iv(
     """Attempt Newton-Raphson. Returns the converged sigma, or None if it fails to converge."""
     sigma = np.clip(_initial_guess(market_price, S, T), SIGMA_LOWER_BOUND, SIGMA_UPPER_BOUND)
 
-    for _ in tqdm(range(NR_MAX_ITERATIONS)):
+    # NOTE: this used to be wrapped in tqdm(...) for a progress bar. Removed —
+    # this solve converges in single-digit iterations almost always, so the bar
+    # was pure overhead, and once select_candidates() started calling this per
+    # contract from multiple threads, every thread's bar fought over the same
+    # terminal line and made independent contracts *look* like they were
+    # running one at a time even when they weren't.
+    for _ in range(NR_MAX_ITERATIONS):
         price_diff = bsm_price(S, K, T, r, sigma, opt_type) - market_price
 
         if abs(price_diff) < NR_PRICE_TOLERANCE:

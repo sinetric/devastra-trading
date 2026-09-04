@@ -2,7 +2,7 @@ import responses
 from config.settings import get_settings
 from src.outbound.market_data.options_chain import fetch_all_option_snapshots
 from src.outbound.header import get_header
-from src.outbound.models import Option_Submission, option_status
+from src.outbound.models import Option_Submission, order_side
 from src.utils.jsonParser import create_json_file, parse_json_file
 from src.outbound.trading.options import submit_option_order
 # from models import 
@@ -13,11 +13,9 @@ def test_submit_option_order():
     BASE_URL= SETTINGS.BASE_URL
 
     order: Option_Submission = Option_Submission(
-        order_symbol="AAPL260918C00230000",
+        symbol="AAPL260918C00230000",
         qty=1,
-        side="buy",
-        strike_price=2.50,
-        status=option_status.ACTIVE,
+        side=order_side.BUY,
     )
 
     responses.add(
@@ -29,7 +27,7 @@ def test_submit_option_order():
         },
         status = 200,
     )
-    result = submit_option_order(order)
+    result = submit_option_order(order, dry_run=False)  # force past ENABLE_DRY_RUNNING to hit the mocked endpoint
 
     assert result["status"] == "accepted"
 
