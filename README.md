@@ -11,6 +11,7 @@ cd devastra-trading
 
 ### Backend setup
 
+Create a virtual environment and install dependencies
 ```bash
 # create the venv
 python3 -m venv venv
@@ -20,4 +21,11 @@ venv\Scripts\activate           # Windows
 
 # install dependencies from requirements.txt
 pip install -r requirements.txt
+```
+
+### Bot running
+
+Clear logs created by the bot
+```bash
+python -m src.utils.clear_logs
 ```
