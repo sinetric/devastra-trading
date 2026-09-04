@@ -7,3 +7,5 @@ pydantic
 python-dotenv
 responses
 pyarrow
+scipy
+tqdm
