@@ -23,6 +23,8 @@ import numpy as np
 from scipy.stats import norm
 from scipy.optimize import brentq
 
+from tqdm import tqdm
+
 from src.outbound.models import (
     Implied_Volatility_Result,
     Volatility_Comparison,
@@ -75,7 +77,7 @@ def _newton_raphson_iv(
     """Attempt Newton-Raphson. Returns the converged sigma, or None if it fails to converge."""
     sigma = np.clip(_initial_guess(market_price, S, T), SIGMA_LOWER_BOUND, SIGMA_UPPER_BOUND)
 
-    for _ in range(NR_MAX_ITERATIONS):
+    for _ in tqdm(range(NR_MAX_ITERATIONS)):
         price_diff = bsm_price(S, K, T, r, sigma, opt_type) - market_price
 
         if abs(price_diff) < NR_PRICE_TOLERANCE:
