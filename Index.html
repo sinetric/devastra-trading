@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devastra — AI Quant Trading Terminal</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- ===================== TOP BAR ===================== -->
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">◈</span>
+        <span class="brand-name">DEVASTRA</span>
+        <span class="brand-sub">QUANT TERMINAL</span>
+      </div>
+      <div class="market-pill">
+        <span class="dot live"></span> MARKET OPEN
+        <span class="sep">·</span>
+        <span id="session-clock" class="mono">09:41:22</span>
+      </div>
+      <div class="top-stats">
+        <div class="top-stat"><span class="lbl">EQUITY</span><span class="val mono" id="top-equity">$248,530</span></div>
+        <div class="top-stat"><span class="lbl">DAY P&L</span><span class="val mono pos" id="top-pnl">+$3,420</span></div>
+        <div class="top-stat"><span class="lbl">BUYING POWER</span><span class="val mono" id="top-bp">$96,180</span></div>
+        <div class="top-stat"><span class="lbl">VaR</span><span class="val mono warn" id="top-var">$4,120</span></div>
+      </div>
+    </header>
+
+    <div class="layout">
+      <!-- ===================== SIDEBAR ===================== -->
+      <aside class="sidebar">
+        <nav class="nav">
+          <a class="nav-item active" data-view="dashboard">
+            <span class="nav-ico">▦</span><span>Dashboard</span>
+          </a>
+          <a class="nav-item" data-view="scanner">
+            <span class="nav-ico">◫</span><span>Market Scanner</span>
+          </a>
+          <a class="nav-item" data-view="candidates">
+            <span class="nav-ico">☰</span><span>Candidates</span>
+          </a>
+          <a class="nav-item" data-view="activity">
+            <span class="nav-ico">⚡</span><span>AI Activity</span>
+          </a>
+          <a class="nav-item" data-view="positions">
+            <span class="nav-ico">▤</span><span>Open Positions</span>
+          </a>
+          <a class="nav-item" data-view="risk">
+            <span class="nav-ico">⚠</span><span>Risk Engine</span>
+          </a>
+          <a class="nav-item" data-view="performance">
+            <span class="nav-ico">∿</span><span>Performance</span>
+          </a>
+        </nav>
+
+        <div class="side-risk">
+          <div class="side-risk-head">
+            <span>RISK STATUS</span>
+            <span class="badge ok">NOMINAL</span>
+          </div>
+          <div class="side-risk-row"><span>Exposure</span><span class="mono" id="side-exp">34%</span></div>
+          <div class="side-risk-row"><span>Drawdown</span><span class="mono" id="side-dd">-1.8%</span></div>
+          <div class="side-risk-row"><span>Delta</span><span class="mono" id="side-delta">0.42</span></div>
+          <div class="side-risk-bar"><i id="side-risk-fill" style="width:34%"></i></div>
+        </div>
+
+        <div class="side-foot mono">SIMULATED DATA · PAPER TRADING</div>
+      </aside>
+
+      <!-- ===================== MAIN ===================== -->
+      <main class="main" id="main"></main>
+    </div>
+  </div>
+
+  <!-- Candidate detail modal -->
+  <div class="modal-overlay" id="modal" hidden></div>
+
+  <script src="js/mockData.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
