@@ -1,0 +1,46 @@
+[
+  {
+    "symbol": "AAPL260918C00230000",
+    "decoded_root": "AAPL",
+    "decoded_expiration": "2026-09-18T00:00:00",
+    "decoded_type": "call",
+    "decoded_strike": 230.0,
+    "passed": true
+  },
+  {
+    "symbol": "SPY251231P00450500",
+    "decoded_root": "SPY",
+    "decoded_expiration": "2025-12-31T00:00:00",
+    "decoded_type": "put",
+    "decoded_strike": 450.5,
+    "passed": true
+  },
+  {
+    "symbol": "F260101C00010000",
+    "decoded_root": "F",
+    "decoded_expiration": "2026-01-01T00:00:00",
+    "decoded_type": "call",
+    "decoded_strike": 10.0,
+    "passed": true
+  },
+  {
+    "symbol": "NOTVALID",
+    "expected": "ValueError",
+    "passed": true
+  },
+  {
+    "symbol": "aapl260918c00230000",
+    "expected": "ValueError",
+    "passed": true
+  },
+  {
+    "symbol": "AAPL2609C00230000",
+    "expected": "ValueError",
+    "passed": true
+  },
+  {
+    "symbol": "",
+    "expected": "ValueError",
+    "passed": true
+  }
+]

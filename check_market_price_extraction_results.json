@@ -1,0 +1,53 @@
+[
+  {
+    "snapshot": {
+      "latestQuote": {
+        "bp": 5.0,
+        "ap": 5.2
+      },
+      "latestTrade": {
+        "p": 5.1
+      }
+    },
+    "result": 5.1,
+    "expected": 5.1,
+    "passed": true
+  },
+  {
+    "snapshot": {
+      "latestQuote": {
+        "bp": 0,
+        "ap": 5.2
+      },
+      "latestTrade": {
+        "p": 5.1
+      }
+    },
+    "result": 5.1,
+    "expected": 5.1,
+    "passed": true
+  },
+  {
+    "snapshot": {
+      "latestQuote": {
+        "bp": 0,
+        "ap": 0
+      },
+      "latestTrade": {
+        "p": 0
+      }
+    },
+    "result": null,
+    "expected": null,
+    "passed": true
+  },
+  {
+    "snapshot": {
+      "latestQuote": {},
+      "latestTrade": {}
+    },
+    "result": null,
+    "expected": null,
+    "passed": true
+  }
+]

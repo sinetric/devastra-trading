@@ -1,0 +1,3047 @@
+[
+  {
+    "contract_symbol": "AAPL260909C00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 4,
+    "market_price": 23.365000000000002,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 4,
+    "market_price": 0.76,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00302500",
+    "strike_price": 302.5,
+    "days_to_expiry": 4,
+    "market_price": 25.965,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00327500",
+    "strike_price": 327.5,
+    "days_to_expiry": 4,
+    "market_price": 4.445,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00297500",
+    "strike_price": 297.5,
+    "days_to_expiry": 4,
+    "market_price": 30.910000000000004,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00312500",
+    "strike_price": 312.5,
+    "days_to_expiry": 4,
+    "market_price": 16.16,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 4,
+    "market_price": 5.975,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00342500",
+    "strike_price": 342.5,
+    "days_to_expiry": 4,
+    "market_price": 0.485,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00322500",
+    "strike_price": 322.5,
+    "days_to_expiry": 4,
+    "market_price": 7.74,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00292500",
+    "strike_price": 292.5,
+    "days_to_expiry": 4,
+    "market_price": 35.855000000000004,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 4,
+    "market_price": 28.950000000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 4,
+    "market_price": 43.785,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 4,
+    "market_price": 39.04,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00287500",
+    "strike_price": 287.5,
+    "days_to_expiry": 4,
+    "market_price": 40.504999999999995,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00282500",
+    "strike_price": 282.5,
+    "days_to_expiry": 4,
+    "market_price": 45.82,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00317500",
+    "strike_price": 317.5,
+    "days_to_expiry": 4,
+    "market_price": 11.399999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00347500",
+    "strike_price": 347.5,
+    "days_to_expiry": 4,
+    "market_price": 0.22,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 4,
+    "market_price": 0.075,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 4,
+    "market_price": 1.66,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00337500",
+    "strike_price": 337.5,
+    "days_to_expiry": 4,
+    "market_price": 1.08,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 4,
+    "market_price": 0.33,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 4,
+    "market_price": 3.3200000000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 4,
+    "market_price": 14.025,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 4,
+    "market_price": 9.765,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 4,
+    "market_price": 18.53,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 4,
+    "market_price": 33.06,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 4,
+    "market_price": 0.18,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00332500",
+    "strike_price": 332.5,
+    "days_to_expiry": 4,
+    "market_price": 2.39,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00307500",
+    "strike_price": 307.5,
+    "days_to_expiry": 4,
+    "market_price": 20.195,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 4,
+    "market_price": 48.245000000000005,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 4,
+    "market_price": 8.165,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 4,
+    "market_price": 0.5900000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00287500",
+    "strike_price": 287.5,
+    "days_to_expiry": 4,
+    "market_price": 0.065,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00297500",
+    "strike_price": 297.5,
+    "days_to_expiry": 4,
+    "market_price": 0.065,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00327500",
+    "strike_price": 327.5,
+    "days_to_expiry": 4,
+    "market_price": 3.7,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 4,
+    "market_price": 46.6,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 4,
+    "market_price": 0.03,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00307500",
+    "strike_price": 307.5,
+    "days_to_expiry": 4,
+    "market_price": 0.2,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 4,
+    "market_price": 16.825000000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00282500",
+    "strike_price": 282.5,
+    "days_to_expiry": 4,
+    "market_price": 0.07,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 4,
+    "market_price": 0.06,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00337500",
+    "strike_price": 337.5,
+    "days_to_expiry": 4,
+    "market_price": 10.065,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 4,
+    "market_price": 26.535,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00302500",
+    "strike_price": 302.5,
+    "days_to_expiry": 4,
+    "market_price": 0.115,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 4,
+    "market_price": 0.13,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00317500",
+    "strike_price": 317.5,
+    "days_to_expiry": 4,
+    "market_price": 0.865,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 4,
+    "market_price": 36.85,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 4,
+    "market_price": 0.06,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 4,
+    "market_price": 1.275,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 4,
+    "market_price": 41.43,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 4,
+    "market_price": 31.83,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 4,
+    "market_price": 21.55,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 4,
+    "market_price": 12.504999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00332500",
+    "strike_price": 332.5,
+    "days_to_expiry": 4,
+    "market_price": 6.619999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00292500",
+    "strike_price": 292.5,
+    "days_to_expiry": 4,
+    "market_price": 0.055,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 4,
+    "market_price": 2.63,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00347500",
+    "strike_price": 347.5,
+    "days_to_expiry": 4,
+    "market_price": 19.32,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00322500",
+    "strike_price": 322.5,
+    "days_to_expiry": 4,
+    "market_price": 1.83,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 4,
+    "market_price": 0.05,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 4,
+    "market_price": 0.030000000000000002,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909C00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 4,
+    "market_price": 0.02,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00342500",
+    "strike_price": 342.5,
+    "days_to_expiry": 4,
+    "market_price": 14.55,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 4,
+    "market_price": 0.09,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 4,
+    "market_price": 0.25,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 4,
+    "market_price": 5.03,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 4,
+    "market_price": 0.09,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260909P00312500",
+    "strike_price": 312.5,
+    "days_to_expiry": 4,
+    "market_price": 0.41000000000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00322500",
+    "strike_price": 322.5,
+    "days_to_expiry": 6,
+    "market_price": 8.594999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 6,
+    "market_price": 0.29500000000000004,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 6,
+    "market_price": 0.04,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00297500",
+    "strike_price": 297.5,
+    "days_to_expiry": 6,
+    "market_price": 31.715,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00312500",
+    "strike_price": 312.5,
+    "days_to_expiry": 6,
+    "market_price": 16.42,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00302500",
+    "strike_price": 302.5,
+    "days_to_expiry": 6,
+    "market_price": 0.28,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 6,
+    "market_price": 0.095,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 6,
+    "market_price": 19.14,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00342500",
+    "strike_price": 342.5,
+    "days_to_expiry": 6,
+    "market_price": 0.915,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00312500",
+    "strike_price": 312.5,
+    "days_to_expiry": 6,
+    "market_price": 0.755,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00287500",
+    "strike_price": 287.5,
+    "days_to_expiry": 6,
+    "market_price": 0.07,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 6,
+    "market_price": 43.73,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00282500",
+    "strike_price": 282.5,
+    "days_to_expiry": 6,
+    "market_price": 45.43,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 6,
+    "market_price": 1.96,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 6,
+    "market_price": 0.12,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00327500",
+    "strike_price": 327.5,
+    "days_to_expiry": 6,
+    "market_price": 5.5649999999999995,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00287500",
+    "strike_price": 287.5,
+    "days_to_expiry": 6,
+    "market_price": 40.870000000000005,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 6,
+    "market_price": 28.05,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00307500",
+    "strike_price": 307.5,
+    "days_to_expiry": 6,
+    "market_price": 21.490000000000002,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 6,
+    "market_price": 2.4299999999999997,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00332500",
+    "strike_price": 332.5,
+    "days_to_expiry": 6,
+    "market_price": 3.21,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00307500",
+    "strike_price": 307.5,
+    "days_to_expiry": 6,
+    "market_price": 0.42000000000000004,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 6,
+    "market_price": 0.055,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 6,
+    "market_price": 38.575,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 6,
+    "market_price": 14.415,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00317500",
+    "strike_price": 317.5,
+    "days_to_expiry": 6,
+    "market_price": 12.375,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 6,
+    "market_price": 0.08,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 6,
+    "market_price": 0.32,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 6,
+    "market_price": 1.0350000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 6,
+    "market_price": 0.034999999999999996,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 6,
+    "market_price": 23.645,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 6,
+    "market_price": 33.075,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00297500",
+    "strike_price": 297.5,
+    "days_to_expiry": 6,
+    "market_price": 0.155,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 6,
+    "market_price": 0.665,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 6,
+    "market_price": 49.215,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 6,
+    "market_price": 0.235,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00317500",
+    "strike_price": 317.5,
+    "days_to_expiry": 6,
+    "market_price": 1.46,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 6,
+    "market_price": 0.535,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00292500",
+    "strike_price": 292.5,
+    "days_to_expiry": 6,
+    "market_price": 36.09,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00337500",
+    "strike_price": 337.5,
+    "days_to_expiry": 6,
+    "market_price": 1.75,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 6,
+    "market_price": 7.109999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00292500",
+    "strike_price": 292.5,
+    "days_to_expiry": 6,
+    "market_price": 0.15,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 6,
+    "market_price": 1.335,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00282500",
+    "strike_price": 282.5,
+    "days_to_expiry": 6,
+    "market_price": 0.09000000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 6,
+    "market_price": 0.075,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 6,
+    "market_price": 0.05500000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 6,
+    "market_price": 4.32,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 6,
+    "market_price": 10.379999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 6,
+    "market_price": 0.195,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911C00302500",
+    "strike_price": 302.5,
+    "days_to_expiry": 6,
+    "market_price": 26.535,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 6,
+    "market_price": 21.715,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 9,
+    "market_price": 0.14500000000000002,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 9,
+    "market_price": 0.14,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 9,
+    "market_price": 0.12000000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 9,
+    "market_price": 1.33,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 9,
+    "market_price": 33.585,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 6,
+    "market_price": 5.83,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 6,
+    "market_price": 31.770000000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 9,
+    "market_price": 15.06,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00332500",
+    "strike_price": 332.5,
+    "days_to_expiry": 6,
+    "market_price": 7.42,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 11,
+    "market_price": 15.379999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 9,
+    "market_price": 31.855000000000004,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 9,
+    "market_price": 48.6,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 9,
+    "market_price": 3.9395,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 6,
+    "market_price": 9.094999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 9,
+    "market_price": 0.265,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 9,
+    "market_price": 41.71,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 9,
+    "market_price": 6.33,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00337500",
+    "strike_price": 337.5,
+    "days_to_expiry": 6,
+    "market_price": 10.945,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 9,
+    "market_price": 0.125,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 9,
+    "market_price": 0.13,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 9,
+    "market_price": 9.21,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 11,
+    "market_price": 24.15,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 9,
+    "market_price": 2.9050000000000002,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 9,
+    "market_price": 4.82,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 9,
+    "market_price": 0.27,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 9,
+    "market_price": 0.495,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 11,
+    "market_price": 28.91,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 9,
+    "market_price": 17.335,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 9,
+    "market_price": 0.89,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 6,
+    "market_price": 42.195,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 9,
+    "market_price": 0.08,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00322500",
+    "strike_price": 322.5,
+    "days_to_expiry": 6,
+    "market_price": 2.65,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 6,
+    "market_price": 26.835,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 11,
+    "market_price": 43.675,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 11,
+    "market_price": 19.72,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 9,
+    "market_price": 23.78,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 9,
+    "market_price": 21.73,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 9,
+    "market_price": 19.285,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 6,
+    "market_price": 46.475,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 11,
+    "market_price": 33.84,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 11,
+    "market_price": 48.595,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 6,
+    "market_price": 12.835,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 9,
+    "market_price": 2.385,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 9,
+    "market_price": 0.1,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 9,
+    "market_price": 0.47500000000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 11,
+    "market_price": 38.53,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 9,
+    "market_price": 0.08,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 9,
+    "market_price": 28.560000000000002,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 9,
+    "market_price": 7.385,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 6,
+    "market_price": 36.55,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 6,
+    "market_price": 3.545,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 9,
+    "market_price": 12.844999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 9,
+    "market_price": 1.595,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 9,
+    "market_price": 11.45,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 9,
+    "market_price": 26.535,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 9,
+    "market_price": 38.185,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 9,
+    "market_price": 36.925,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 6,
+    "market_price": 17.134999999999998,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 9,
+    "market_price": 0.73,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00342500",
+    "strike_price": 342.5,
+    "days_to_expiry": 6,
+    "market_price": 14.815,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 11,
+    "market_price": 11.435,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260911P00327500",
+    "strike_price": 327.5,
+    "days_to_expiry": 6,
+    "market_price": 4.635,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914C00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 9,
+    "market_price": 43.739999999999995,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260914P00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 9,
+    "market_price": 47.09,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00287500",
+    "strike_price": 287.5,
+    "days_to_expiry": 13,
+    "market_price": 41.129999999999995,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 11,
+    "market_price": 1.625,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 13,
+    "market_price": 25.395000000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 13,
+    "market_price": 43.655,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 11,
+    "market_price": 0.64,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 11,
+    "market_price": 0.35,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 11,
+    "market_price": 0.38,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 11,
+    "market_price": 7.98,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 11,
+    "market_price": 0.23500000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 11,
+    "market_price": 13.625,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 11,
+    "market_price": 36.58,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 11,
+    "market_price": 26.75,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 13,
+    "market_price": 48.515,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 11,
+    "market_price": 3.3,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 13,
+    "market_price": 34.315,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 11,
+    "market_price": 0.17,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 11,
+    "market_price": 1.05,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00297500",
+    "strike_price": 297.5,
+    "days_to_expiry": 13,
+    "market_price": 31.555,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 11,
+    "market_price": 32.019999999999996,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 11,
+    "market_price": 0.2,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 11,
+    "market_price": 47.07,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 11,
+    "market_price": 4.305,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 11,
+    "market_price": 1.935,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 11,
+    "market_price": 5.4350000000000005,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 11,
+    "market_price": 1.255,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 11,
+    "market_price": 0.195,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 11,
+    "market_price": 9.73,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 11,
+    "market_price": 6.995,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 13,
+    "market_price": 39.47,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00292500",
+    "strike_price": 292.5,
+    "days_to_expiry": 13,
+    "market_price": 36.68,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00302500",
+    "strike_price": 302.5,
+    "days_to_expiry": 13,
+    "market_price": 27.509999999999998,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 11,
+    "market_price": 17.575,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 11,
+    "market_price": 0.38,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 11,
+    "market_price": 0.22999999999999998,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 11,
+    "market_price": 22.21,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 11,
+    "market_price": 2.715,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 11,
+    "market_price": 42.355,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 11,
+    "market_price": 0.07,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 13,
+    "market_price": 29.16,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916C00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 11,
+    "market_price": 0.07500000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260916P00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 11,
+    "market_price": 0.6799999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00292500",
+    "strike_price": 292.5,
+    "days_to_expiry": 13,
+    "market_price": 0.33499999999999996,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 13,
+    "market_price": 0.885,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00337500",
+    "strike_price": 337.5,
+    "days_to_expiry": 13,
+    "market_price": 3.135,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00322500",
+    "strike_price": 322.5,
+    "days_to_expiry": 13,
+    "market_price": 10.46,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 13,
+    "market_price": 0.38,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 13,
+    "market_price": 2.4749999999999996,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 13,
+    "market_price": 0.125,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00327500",
+    "strike_price": 327.5,
+    "days_to_expiry": 13,
+    "market_price": 7.375,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 13,
+    "market_price": 0.165,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 13,
+    "market_price": 8.79,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 13,
+    "market_price": 11.96,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 13,
+    "market_price": 3.95,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 13,
+    "market_price": 0.125,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 13,
+    "market_price": 0.265,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00287500",
+    "strike_price": 287.5,
+    "days_to_expiry": 13,
+    "market_price": 0.24,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 13,
+    "market_price": 0.16999999999999998,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 13,
+    "market_price": 15.81,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 13,
+    "market_price": 0.5549999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 13,
+    "market_price": 0.32,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 13,
+    "market_price": 6.025,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 13,
+    "market_price": 0.195,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 13,
+    "market_price": 1.48,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00317500",
+    "strike_price": 317.5,
+    "days_to_expiry": 13,
+    "market_price": 13.809999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 13,
+    "market_price": 19.965,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00332500",
+    "strike_price": 332.5,
+    "days_to_expiry": 13,
+    "market_price": 4.9,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00312500",
+    "strike_price": 312.5,
+    "days_to_expiry": 13,
+    "market_price": 17.92,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918C00307500",
+    "strike_price": 307.5,
+    "days_to_expiry": 13,
+    "market_price": 22.36,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 20,
+    "market_price": 2.3200000000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 13,
+    "market_price": 47.394999999999996,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 13,
+    "market_price": 21.950000000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 20,
+    "market_price": 1.495,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 13,
+    "market_price": 2.07,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 20,
+    "market_price": 21.04,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 13,
+    "market_price": 26.775,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 20,
+    "market_price": 48.705,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 13,
+    "market_price": 32.175,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 13,
+    "market_price": 5.11,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 13,
+    "market_price": 13.705,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 13,
+    "market_price": 42.254999999999995,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 20,
+    "market_price": 39.135,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00312500",
+    "strike_price": 312.5,
+    "days_to_expiry": 13,
+    "market_price": 1.6600000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 13,
+    "market_price": 3.33,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00332500",
+    "strike_price": 332.5,
+    "days_to_expiry": 13,
+    "market_price": 8.645,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 20,
+    "market_price": 25.545,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00307500",
+    "strike_price": 307.5,
+    "days_to_expiry": 13,
+    "market_price": 1.045,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 13,
+    "market_price": 10.36,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 20,
+    "market_price": 44.44,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 20,
+    "market_price": 3.48,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 13,
+    "market_price": 1.29,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 13,
+    "market_price": 0.535,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00322500",
+    "strike_price": 322.5,
+    "days_to_expiry": 13,
+    "market_price": 4.045,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 13,
+    "market_price": 0.825,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 20,
+    "market_price": 10.120000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00297500",
+    "strike_price": 297.5,
+    "days_to_expiry": 13,
+    "market_price": 0.46499999999999997,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00327500",
+    "strike_price": 327.5,
+    "days_to_expiry": 13,
+    "market_price": 6.105,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00302500",
+    "strike_price": 302.5,
+    "days_to_expiry": 13,
+    "market_price": 0.675,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 20,
+    "market_price": 13.335,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 13,
+    "market_price": 17.755000000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 13,
+    "market_price": 7.42,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00317500",
+    "strike_price": 317.5,
+    "days_to_expiry": 13,
+    "market_price": 2.62,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 20,
+    "market_price": 34.21,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00337500",
+    "strike_price": 337.5,
+    "days_to_expiry": 13,
+    "market_price": 11.91,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 20,
+    "market_price": 5.140000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 20,
+    "market_price": 7.34,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260918P00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 13,
+    "market_price": 37.19,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 20,
+    "market_price": 30.425,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 20,
+    "market_price": 16.895,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 20,
+    "market_price": 0.175,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 20,
+    "market_price": 0.24,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 20,
+    "market_price": 2.005,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 20,
+    "market_price": 41.644999999999996,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 20,
+    "market_price": 1.355,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 20,
+    "market_price": 27.35,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 20,
+    "market_price": 46.525,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 20,
+    "market_price": 6.17,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 20,
+    "market_price": 14.425,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 20,
+    "market_price": 0.925,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 20,
+    "market_price": 0.265,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 20,
+    "market_price": 0.96,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 20,
+    "market_price": 0.63,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 20,
+    "market_price": 36.69,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 20,
+    "market_price": 0.32,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 20,
+    "market_price": 11.225,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 20,
+    "market_price": 22.7,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925C00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 20,
+    "market_price": 0.38,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 20,
+    "market_price": 31.935000000000002,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 20,
+    "market_price": 18.25,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 20,
+    "market_price": 2.99,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 20,
+    "market_price": 0.62,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 20,
+    "market_price": 0.475,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 20,
+    "market_price": 8.379999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL260925P00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 20,
+    "market_price": 4.265,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 27,
+    "market_price": 1.875,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 27,
+    "market_price": 44.599999999999994,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 27,
+    "market_price": 9.325,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 27,
+    "market_price": 26.705,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 27,
+    "market_price": 46.435,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 27,
+    "market_price": 26.29,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 27,
+    "market_price": 1.06,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 27,
+    "market_price": 8.5,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 27,
+    "market_price": 49.235,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 27,
+    "market_price": 32.045,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 27,
+    "market_price": 0.6950000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 27,
+    "market_price": 0.52,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 27,
+    "market_price": 23.43,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 27,
+    "market_price": 40.885000000000005,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 27,
+    "market_price": 0.9750000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 27,
+    "market_price": 1.29,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 27,
+    "market_price": 30.575000000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 27,
+    "market_price": 0.33,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 27,
+    "market_price": 0.51,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 27,
+    "market_price": 21.97,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 27,
+    "market_price": 14.34,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 27,
+    "market_price": 34.394999999999996,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 27,
+    "market_price": 11.29,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 27,
+    "market_price": 3.705,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 27,
+    "market_price": 12.175,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 27,
+    "market_price": 17.93,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 27,
+    "market_price": 6.295,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 27,
+    "market_price": 0.685,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 27,
+    "market_price": 4.61,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 27,
+    "market_price": 1.555,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 27,
+    "market_price": 5.2,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 27,
+    "market_price": 37.17,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 27,
+    "market_price": 3.225,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002C00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 27,
+    "market_price": 2.1849999999999996,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 27,
+    "market_price": 0.41000000000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 27,
+    "market_price": 41.945,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 27,
+    "market_price": 7.01,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 27,
+    "market_price": 15.379999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 27,
+    "market_price": 18.9,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261002P00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 27,
+    "market_price": 2.665,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 34,
+    "market_price": 22.795,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 34,
+    "market_price": 9.805,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 34,
+    "market_price": 49.58,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 34,
+    "market_price": 36.245000000000005,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 34,
+    "market_price": 7.3149999999999995,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 34,
+    "market_price": 1.75,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 34,
+    "market_price": 1.51,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 34,
+    "market_price": 15.71,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 34,
+    "market_price": 1.08,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 34,
+    "market_price": 27.01,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 34,
+    "market_price": 12.45,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 34,
+    "market_price": 2.9400000000000004,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 34,
+    "market_price": 0.585,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 34,
+    "market_price": 4.13,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 34,
+    "market_price": 3.24,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 34,
+    "market_price": 0.5549999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 34,
+    "market_price": 0.7849999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 34,
+    "market_price": 2.1245000000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 34,
+    "market_price": 40.8,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 34,
+    "market_price": 6.035,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 34,
+    "market_price": 44.835,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 34,
+    "market_price": 0.72,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 34,
+    "market_price": 7.890000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 34,
+    "market_price": 0.95,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 34,
+    "market_price": 1.2850000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 34,
+    "market_price": 19.11,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 34,
+    "market_price": 2.4299999999999997,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 34,
+    "market_price": 31.035,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009C00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 34,
+    "market_price": 5.47,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 34,
+    "market_price": 4.4350000000000005,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 41,
+    "market_price": 45.959999999999994,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 41,
+    "market_price": 16.524500000000003,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 41,
+    "market_price": 19.98,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 41,
+    "market_price": 41.86,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 34,
+    "market_price": 19.82,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 34,
+    "market_price": 41.175,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 41,
+    "market_price": 49.575,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 41,
+    "market_price": 36.045,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 41,
+    "market_price": 2.705,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 34,
+    "market_price": 46.775,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 41,
+    "market_price": 28.185000000000002,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 34,
+    "market_price": 27.845,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 41,
+    "market_price": 6.385,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 34,
+    "market_price": 23.759999999999998,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 41,
+    "market_price": 3.5949999999999998,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 34,
+    "market_price": 36.66,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 41,
+    "market_price": 0.74,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 34,
+    "market_price": 10.19,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 41,
+    "market_price": 1.07,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 41,
+    "market_price": 13.465,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 41,
+    "market_price": 8.3,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 41,
+    "market_price": 10.85,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 41,
+    "market_price": 32.364999999999995,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 41,
+    "market_price": 23.615000000000002,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 34,
+    "market_price": 32.894999999999996,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 41,
+    "market_price": 1.99,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 34,
+    "market_price": 16.465,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 41,
+    "market_price": 1.4449999999999998,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016C00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 41,
+    "market_price": 4.845000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261009P00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 34,
+    "market_price": 13.06,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00355000",
+    "strike_price": 355.0,
+    "days_to_expiry": 41,
+    "market_price": 28.05,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00285000",
+    "strike_price": 285.0,
+    "days_to_expiry": 41,
+    "market_price": 0.9450000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00305000",
+    "strike_price": 305.0,
+    "days_to_expiry": 41,
+    "market_price": 2.96,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00290000",
+    "strike_price": 290.0,
+    "days_to_expiry": 41,
+    "market_price": 1.2850000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00365000",
+    "strike_price": 365.0,
+    "days_to_expiry": 41,
+    "market_price": 36.715,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00300000",
+    "strike_price": 300.0,
+    "days_to_expiry": 41,
+    "market_price": 2.2199999999999998,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00330000",
+    "strike_price": 330.0,
+    "days_to_expiry": 41,
+    "market_price": 11.100000000000001,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00315000",
+    "strike_price": 315.0,
+    "days_to_expiry": 41,
+    "market_price": 5.234999999999999,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00325000",
+    "strike_price": 325.0,
+    "days_to_expiry": 41,
+    "market_price": 8.61,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00375000",
+    "strike_price": 375.0,
+    "days_to_expiry": 41,
+    "market_price": 45.78,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00340000",
+    "strike_price": 340.0,
+    "days_to_expiry": 41,
+    "market_price": 17.104999999999997,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00345000",
+    "strike_price": 345.0,
+    "days_to_expiry": 41,
+    "market_price": 20.235,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00350000",
+    "strike_price": 350.0,
+    "days_to_expiry": 41,
+    "market_price": 24.32,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00335000",
+    "strike_price": 335.0,
+    "days_to_expiry": 41,
+    "market_price": 13.565,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00280000",
+    "strike_price": 280.0,
+    "days_to_expiry": 41,
+    "market_price": 0.775,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00360000",
+    "strike_price": 360.0,
+    "days_to_expiry": 41,
+    "market_price": 32.8,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00320000",
+    "strike_price": 320.0,
+    "days_to_expiry": 41,
+    "market_price": 6.74,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00370000",
+    "strike_price": 370.0,
+    "days_to_expiry": 41,
+    "market_price": 42.375,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00310000",
+    "strike_price": 310.0,
+    "days_to_expiry": 41,
+    "market_price": 3.9800000000000004,
+    "passed": true
+  },
+  {
+    "contract_symbol": "AAPL261016P00295000",
+    "strike_price": 295.0,
+    "days_to_expiry": 41,
+    "market_price": 1.65,
+    "passed": true
+  }
+]
