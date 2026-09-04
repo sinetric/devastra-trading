@@ -34,12 +34,14 @@ def scan_and_trade(settings) -> None:
 
 
 def run():
-    settings = get_settings()
+    settings = SETTINGS
     logger.log("Bot started.")
+
+    print(get_header())  # Debug: Print headers to verify API keys are loaded correctly
 
     while True:
         try:
-            if is_market_open(settings):
+            if (True if SETTINGS.RUN_DESPITE_MARKET_CLOSED else is_market_open(settings)):
                 scan_and_trade(settings)
                 time.sleep(SCAN_INTERVAL_SECONDS)
             else:

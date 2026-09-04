@@ -5,6 +5,7 @@ class Settings(BaseModel):
     ENABLE_DRY_RUNNING: bool = True # enable dry running for testing purposes (no trades will be executed)
     SCAN_INTERVAL_SECONDS: int = 30 # how often to re-scan the watchlist while market is open
     CLOSED_MARKET_SLEEP_SECONDS: int = 300 # check less frequently while the market's closed
+    RUN_DESPITE_MARKET_CLOSED: bool = True # if True, the bot will run even when the market is closed (useful for testing)
 
 def get_settings():
     return Settings()
