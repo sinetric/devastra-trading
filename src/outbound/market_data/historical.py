@@ -59,6 +59,15 @@ def _fetch_bars_from_api(symbol: str, start: str, end: str, timeframe: str = "1D
     df = pd.DataFrame(bars)
 
     if not df.empty:
+        df = df.rename(columns={
+            "o": "open",
+            "h": "high",
+            "l": "low",
+            "c": "close",
+            "v": "volume",
+            "n": "trade_count",
+            "vw": "vwap",
+        })
         df["t"] = pd.to_datetime(df["t"])
         df = df.set_index("t")
 
