@@ -35,12 +35,12 @@ def get_option_contract_symbol(non_occ_format: Create_OCC_Format) -> OCC_Order:
 def submit_option_order(Option_Submission: Option_Submission):
     BASE_URL = SETTINGS.BASE_URL
     HEADERS = get_header()
-    URL = f"{BASE_URL}/v2/options/orders"
+    URL = f"{BASE_URL}/v2/orders"
 
     response = requests.post(
         URL,
         headers = HEADERS ,
-        json = Option_Submission.model_dump(mode="json", excludeNone=True)  # Convert Pydantic model to dict, excluding None values
+        json = Option_Submission.model_dump(mode="json", exclude_none=True)  # Convert Pydantic model to dict, excluding None values
     )
     print(f"Response Status Code: {response.status_code}")
     print(f"Response Body: {response.json()}")
