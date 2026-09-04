@@ -16,5 +16,10 @@ class Settings(BaseModel):
     SIGMA_UPPER_BOUND: float = 5.0  # 500% annualized vol — already an extreme ceiling
     VOL_SPREAD_THRESHOLD: float = 0.05  # default overpriced/underpriced cutoff in compare_volatility()
 
+    # option chain fetching (see market_data/options_chain.py)
+    OPTIONS_DATA_FEED: str = "indicative"  # free-plan-safe feed for options data
+    MAX_DAYS_TO_EXPIRY: int = 45           # ignore contracts expiring further out than this
+    STRIKE_RANGE_PCT: float = 0.15         # only keep strikes within +/- 15% of spot price
+
 def get_settings():
     return Settings()
