@@ -21,5 +21,9 @@ class Settings(BaseModel):
     MAX_DAYS_TO_EXPIRY: int = 45           # ignore contracts expiring further out than this
     STRIKE_RANGE_PCT: float = 0.15         # only keep strikes within +/- 15% of spot price
 
+    # expected-value decision layer (see strategy/expected_value.py)
+    MONTE_CARLO_SIMULATIONS: int = 50000  # number of simulated price paths per contract
+    EV_PROFIT_THRESHOLD: float = 0.0      # minimum simulated expected profit (per share) to flag as a candidate
+
 def get_settings():
     return Settings()
